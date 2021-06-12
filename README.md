@@ -1,4 +1,4 @@
-# Student Portfolio
+# Portfolio
 
 This is a portfoilo website
 
