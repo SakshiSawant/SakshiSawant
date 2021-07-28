@@ -238,9 +238,12 @@ body {
     width: 80%;
 }
 .about-me-info{
+    display: flex;
+    flex-direction: column;
     width: 40%;
     margin: 1rem auto;
     padding: 1rem;
+    justify-content: center;
 }
 .about-me-info p{
     font-size: 1.2rem;
@@ -441,6 +444,15 @@ footer{
     margin: 1rem;
 }
 
+.exp-section{
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+.exp-section h4{
+    text-align: center;
+    font-size: 2.4rem;
+}
+
 .experience-section{
     width: 85%;
     margin: auto;
@@ -493,12 +505,16 @@ small{
         flex-direction: column;
     }
     .experience-section{
-        padding: 2rem auto;
+        padding: 0rem;
     }
     .experience-left-img{
-        width: 100%;
+        width: 95%;
     }
     .experience-img{
         width: 100%;
+    }
+    .section-heading{
+        padding: 0rem;
+        margin: 0rem;
     }
 }
