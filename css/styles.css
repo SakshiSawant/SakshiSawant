@@ -208,13 +208,11 @@ body {
 .connect-section h3{
     font-size: 2rem;
     text-align: center;
+    color: var(--gray);
 }
 .social-icon{
     font-size: 2rem;
     padding: 1rem;
-}
-.fa-linkedin{
-    color: #0a66c2;
 }
 
 .about-section{
@@ -465,6 +463,11 @@ footer{
 .experience-img{
     width: 80%;
 }
+.experience-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .company-name{
     color: #2d7cfc;
     font-size: 2.6rem;
@@ -474,6 +477,8 @@ footer{
 }
 small{
     color: #87bbfa;
+    font-size: 1rem;
+    padding: 0.5rem;
 }
 .desc-item{
     color: #4B5563;
@@ -486,5 +491,14 @@ small{
     .experience-card{
         display: flex;
         flex-direction: column;
+    }
+    .experience-section{
+        padding: 2rem auto;
+    }
+    .experience-left-img{
+        width: 100%;
+    }
+    .experience-img{
+        width: 100%;
     }
 }
