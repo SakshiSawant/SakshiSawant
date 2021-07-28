@@ -337,7 +337,7 @@ ul{
 .product-cart button{
     border: 0;
     border-radius: 0 0 10px 10px;
-    background-color: var(--pink-shade);
+    background-color: var(--subheading);
     color: var(--white-color);
     margin: auto;
     cursor: pointer;
@@ -347,6 +347,9 @@ ul{
     transition: all linear .3s;
     width: 100%;
     font-weight: bold;
+}
+.product-cart a{
+    color: var(--white-color);
 }
 
 @media (max-width:576px){
@@ -439,7 +442,7 @@ footer{
 .section-heading{
     text-align: center;
     color: var(--subheading);
-    font-size: 3rem;
+    font-size: 3.5rem;
     padding: 1rem;
     margin: 1rem;
 }
