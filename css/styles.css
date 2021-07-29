@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 html {
     scroll-padding-top: 0rem; /* height of sticky header */
@@ -14,7 +15,7 @@ html {
     --purple-shade: #7C3AED;
     --pink-shade: #EC4899;
     --purple-bg: #C4B5FD;
-    --fontfamily: "Josefin Sans", sans-serif;
+    --fontfamily: 'Montserrat', sans-serif;
     --box-shadow-navbar: 0px 15px 10px -18px #111;
     --box-shadow-product: 2px 2px 5px 1px grey;
     --background-color: #EFF6FF;
@@ -23,6 +24,7 @@ html {
     --subheadings-title: #60A5FA;
     --list-bg: #3278ce;
 }
+
 body {
     /* margin: 6rem auto; */
     font-family: var(--fontfamily);
@@ -53,9 +55,10 @@ body {
   
 .logo{
     margin-left: 5%;
-    color: var(--pink-shade);
+    color: #2563EB;
     font-size: 1.8rem;
     font-weight: bold;
+    padding-top: 1rem;
 }
 .logo_header{
     display: flex;
@@ -104,6 +107,7 @@ body {
     .logo{
         margin-left: 0;
         padding-left: 2rem;
+        padding-top: 2rem;
     }
     .main_nav{
       display: none;

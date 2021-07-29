@@ -7,6 +7,7 @@
     <title>Sakshi Sawant</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/82f797382f.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -36,7 +37,7 @@
     </nav>
 
     <!-- Header Section  -->
-    <section id="home" class="header-section">
+    <section id="home" class="header-section" data-aos="flip-left">
         <!-- <div class="header-img-section">
             <img class="header-img" src="images/img.jpg" alt="img">
         </div> -->
@@ -62,10 +63,10 @@
             <h1 class="section-heading">About Me</h1>
         </div>
         <div class="about-info">
-            <div class="left-img">
+            <div class="left-img" data-aos="fade-up">
                 <img class="about-img" src="images/img.svg" alt="">
             </div>
-            <div class="about-me-info">
+            <div class="about-me-info" data-aos="fade-up">
                 <p>I am Sakshi Sawant, currently in the final year and pursuing my BTech Degree in Computer Science and Technology from Usha Mittal Institute of Technology, SNDT University</p>
                 <p>I am a web developer and I love designing and developing web apps. I also like to write blogs on technical topics, I also write blogs for different publication on <a href="https://sakshisawant.medium.com/" target="_blank">medium</a>.</p>
                 <p>These are the technologies which I use,
@@ -97,7 +98,7 @@
       <!-- <h4>My previous work experiences</h4> -->
       <div class="experience-section">
 
-        <div class="experience-card">
+        <div class="experience-card" data-aos="flip-up">
           <div class="experience-left-img">
             <img class="experience-img" src="https://www.reclusesoftwares.in/recluse/images/logo1.png" alt="img">
           </div>
@@ -117,7 +118,7 @@
         </div>
         </div>
 
-        <div class="experience-card">
+        <div class="experience-card" data-aos="flip-down">
           <div class="experience-left-img">
             <img class="experience-img" src="https://media-exp1.licdn.com/dms/image/C560BAQFE0uHIUFhHkg/company-logo_200_200/0/1622488917918?e=1635379200&v=beta&t=8qnv-T4qgjPVCf2fley_ak9r7chGCFfoave64LpEjo0" alt="img">
           </div>
@@ -148,7 +149,7 @@
     </div>
     <div class="product-container">
 
-      <div class="product-card">
+      <div class="product-card" data-aos="fade-up">
           <div class="product-img">
             <img class="img-product" src="images/projectimg.JPG" alt="img">
           </div>
@@ -161,12 +162,12 @@
 
       </div>
 
-      <div class="product-card">
+      <div class="product-card" data-aos="fade-up">
           <div class="product-img">
             <img class="img-product" src="images/projectimg2.JPG" alt="img">
           </div>
           <div class="product-text">
-            <h3>Polling Web app in Django</h3>
+            <h3>Polling Web App in Django</h3>
         </div>
         <div class="product-cart">
           <a class="links" href="https://thepolls.herokuapp.com/" target="_blank"><button type="submit" >View</button> </a>
@@ -174,7 +175,7 @@
 
       </div>
 
-      <div class="product-card">
+      <div class="product-card" data-aos="fade-up">
           <div class="product-img">
             <img class="img-product" src="images/projectimg3.JPG" alt="img">
           </div>
@@ -200,5 +201,10 @@
 
     <script src="app.js">
     </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 </html>
