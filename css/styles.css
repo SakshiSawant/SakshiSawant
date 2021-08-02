@@ -367,7 +367,7 @@ ul{
         justify-content: center;
     }
     .product-card{
-        margin: 1rem 0rem;
+        margin: 1rem auto;
     }
 }
 
