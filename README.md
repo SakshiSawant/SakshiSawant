@@ -13,7 +13,7 @@
 <br />
 
 ### About Me 🚀
-🌱 I'm a Web Developer.</br>
+<!-- 🌱 I'm a Web Developer.</br> -->
 👨‍💻  I am passionate about Web Dev and Machine Learning & I enjoy learning new things. </br>
 
 
